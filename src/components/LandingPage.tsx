@@ -13,7 +13,7 @@ export function LandingPage({ onGetStarted, onLogin }: LandingPageProps) {
           <div className="flex items-center gap-3">
             <div className="w-12 h-12.5 overflow-hidden">
             <img
-            src="/public/lflogo.png"
+            src="/lflogo.png"
             alt="Learn logo"
             className="w-full h-full object-cover"
             />
