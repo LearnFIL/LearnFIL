@@ -1,4 +1,4 @@
-import { BookMarked, Code, Zap, Trophy, Rocket, Users, ArrowRight, Github } from 'lucide-react';
+import { BookMarked, Code, Zap, Trophy, Rocket, Users, ArrowRight} from 'lucide-react';
 
 interface LandingPageProps {
   onGetStarted: () => void;
