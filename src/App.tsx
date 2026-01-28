@@ -30,6 +30,11 @@ function App() {
   const { user, loading: authLoading } = useAuth();
 
   const { loading, markLessonComplete, isLessonComplete, getCompletedLessonIds } = useProgress(user?.id || 'demo-user');
+  const allModulesCompleted = modules.length > 0 && modules.every(module => {
+  const moduleLessons = getLessons().filter(l => l.module_id === module.id);
+  return moduleLessons.every(l => isLessonComplete(l.id));
+});
+
 
   useEffect(() => {
     loadModules();
