@@ -1,5 +1,6 @@
 import { BookOpen, Trophy, CheckCircle2 } from 'lucide-react';
 import type { Lesson } from '../lib/supabase';
+import BookmarkButton from "../components/BookmarkButton"
 
 interface LessonContentProps {
   lesson: Lesson;
@@ -65,6 +66,7 @@ export function LessonContent({ lesson, isCompleted, onMarkComplete }: LessonCon
           </div>
           <div>
             <h1 className="text-3xl font-bold text-gray-900">{lesson.title}</h1>
+            <BookmarkButton lessonId={lesson.id} />
           </div>
         </div>
 
