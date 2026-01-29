@@ -147,55 +147,6 @@ Topics covered:
 - **Build Tool**: Vite
 - **Code Execution**: In-browser JavaScript evaluation
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ and npm
-- Supabase account (for database)
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/learnfil.git
-cd learnfil
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Set up environment variables:
-```bash
-# Copy .env file and add your Supabase credentials
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-4. Run database migrations:
-The migration files are in `supabase/migrations/`. Apply them through the Supabase dashboard or CLI.
-
-5. Seed sample data:
-Sample modules and lessons are automatically inserted when you first load the app.
-
-6. Start the development server:
-```bash
-npm run dev
-```
-
-7. Open your browser and navigate to `http://localhost:5173`
-
-## Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run typecheck` - Run TypeScript type checking
 
 ### Project Structure
 
@@ -295,8 +246,8 @@ MIT License - see LICENSE file for details
 ## Community
 
 - **Discord**: Join our community server
-- **Twitter**: Follow [@LearnFIL](https://twitter.com/learnfil)
-- **GitHub**: [github.com/learnfil](https://github.com/learnfil)
+- **Twitter**: Follow [@learnfil](https://x.com/learnfil)
+- **GitHub**: [github.com/learnfil](https://github.com/LearnFIL/LearnFIL)
 
 ## Acknowledgments
 
