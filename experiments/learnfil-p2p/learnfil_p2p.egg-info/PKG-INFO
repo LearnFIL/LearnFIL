@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: learnfil-p2p
+Version: 0.1.0
+Summary: LearnFIL peer to peer progress experiment using py-libp2p
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: libp2p
+Requires-Dist: trio
+Requires-Dist: multiaddr
+
+# LearnFIL py-libp2p experiment
+
+A minimal experiment to send LearnFIL progress updates peer to peer using py-libp2p.
+
+Protocol ID  
+`/learnfil/progress/1.0.0`
+
+## Install
+
+From this folder:
+
+```bash
+pip install -e .
