@@ -14,6 +14,8 @@ import { useProgress } from './hooks/useProgress';
 import { runTests } from './utils/codeRunner';
 import { getModules, saveModules, getLessons, saveLessons } from './utils/localStorage';
 import { SEED_MODULES, SEED_LESSONS } from './data/seedData';
+import CertificateButton from './components/CertificateButton';
+
 
 type View = 'landing' | 'modules' | 'lessons' | 'lesson' | 'celebration' | 'auth-signup' | 'auth-login';
 
@@ -214,6 +216,17 @@ function App() {
         {view === 'modules' && (
           <div className="flex-1 overflow-y-auto">
             <div className="max-w-7xl mx-auto px-6 py-8">
+               {/* ---------- CERTIFICATE BUTTON ---------- */}
+      {allModulesCompleted && (
+        <div className="mb-8 text-center">
+          <p className="mb-2 font-semibold text-lg">You’ve completed all modules! 🎉</p>
+          <CertificateButton
+            userName={user?.name || 'Anonymous'}
+            walletAddress={user?.walletAddress || '0x000...'}
+            trackName="LearnFIL Core Developer Track"
+          />
+        </div>
+      )}
               <div className="mb-10 bg-white rounded-3xl p-8 border-4 border-gray-900 relative overflow-hidden">
                 <div className="absolute -top-8 -right-8 w-24 h-24 bg-teal-300 rounded-full border-3 border-gray-900"></div>
                 <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-sunshine-400 rounded-full border-3 border-gray-900"></div>
