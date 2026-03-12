@@ -41,11 +41,11 @@ Learny repository:
 
 | Document     | Path                   | Description                             |
 | ------------ | ---------------------- | --------------------------------------- |
-| Architecture | `docs/architecture.md` | Platform architecture and system design |
-| Curriculum   | `docs/curriculum.md`   | Learning modules and topics             |
-| Development  | `docs/development.md`  | Running LearnFIL locally                |
-| Contributing | `docs/contributing.md` | Contribution guidelines                 |
-| Whitepaper   | `docs/whitepaper.md`   | Project vision and long-term direction  |
+| Architecture | (docs/architecture.md) | Platform architecture and system design |
+| Curriculum   | (docs/curriculum.md)   | Learning modules and topics             |
+| Development  | (docs/development.md)  | Running LearnFIL locally                |
+| Contributing | (docs/contributing.md) | Contribution guidelines                 |
+| Whitepaper   | (docs/whitepaper.md)   | Project vision and long-term direction  |
 
 ---
 
