@@ -1,0 +1,2 @@
+[console_scripts]
+learnfil-p2p = learnfil_p2p.cli:main
